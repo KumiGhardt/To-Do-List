@@ -12,6 +12,10 @@ function newItem() {
         list.append(li);
     }
 
+//clear textbox 
+
+$("input").val("");
+
     //2. Crossing out an item from the list of items:
     function crossOut() {
         li.toggleClass("strike");
