@@ -30,7 +30,7 @@ function newItem() {
     crossOutButton.on("click", deleteListItem);
 
     function deleteListItem() {
-        li.classList.add("delete")
+        this.parentElement.remove();
     }
 
     // 4. Reordering the items: 
